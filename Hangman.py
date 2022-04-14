@@ -10,8 +10,7 @@ gameover = False
 
 words = "ape cat dog baboon elephant giraffe apple coconut " \
         "monkey rubik mice mouse pineapple android apple house fence python grail " \
-        "zerg protoss terran llama fire policeman zebra lion luffy " \
-        " universidad".split()
+        "zerg protoss terran llama fire policeman zebra lion".split()
 
 wordIndex = random.randint(0, len(words)-1)
 word = words[wordIndex]
